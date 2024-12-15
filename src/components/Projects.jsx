@@ -17,14 +17,14 @@ const Projects = () => {
                 width="300px"
                 alt="Netflix Clone"
               />
-              <p style={{ fontSize: "20px", paddingLeft: "100px" }} id='p1'>
-                <b>Title : Netflix Clone</b>
+              <p style={{ fontSize: "20px", paddingLeft: "50px" }} id='p1'>
+                <center><b>Title : Netflix Clone</b></center>
               </p>
               <p style={{ fontSize: "15px", textAlign: "justify", padding: "15px" }}>
                 I developed a Netflix clone using the MERN stack, showcasing my expertise in creating dynamic, responsive web applications. This project features a sleek user interface for browsing and searching movies and TV shows, real-time video streaming capabilities, and secure user authentication with JWT. Leveraging MongoDB for data management, I implemented features like personalized watchlists and user preferences. 
               </p>
-              <p style={{ fontSize: "15px", fontFamily: "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif", paddingLeft: "170px", paddingTop: "1px" }}>
-                GitHub Link: <a href="https://github.com/20KT1A0567"><i className="fa-brands fa-github"></i></a>
+              <p style={{ fontSize: "15px", fontFamily: "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif", paddingLeft: "170px"}}>
+                 <a href="https://github.com/20KT1A0567">GitHub Link : <i className="fa-brands fa-github"></i></a>
               </p>
             </div>
             <div className="project2">
@@ -37,14 +37,14 @@ const Projects = () => {
                 width="300px"
                 alt="Weather App"
               />
-              <p style={{ fontSize: "20px", paddingLeft: "100px" }} id='p1p'>
-                <b>Title : Weather App</b>
+              <p style={{ fontSize: "20px", paddingLeft: "50px" }} id='p1p'>
+                <b><center>Title : Weather App</center></b>
               </p>
               <p style={{ fontSize: "15px", textAlign: "justify", padding: "15px" }}>
                 I created a weather app using HTML, CSS, and JavaScript that delivers real-time weather updates with a clean and intuitive user interface. The app allows users to search for weather conditions by city, displaying details like temperature, humidity, and weather descriptions. It features responsive design for seamless use on any device, along with dynamic weather icons that enhance the visual experience. 
               </p>
-              <p style={{ fontSize: "15px", fontFamily: "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif", paddingLeft: "170px", paddingTop: "21px" }}>
-                GitHub Link: <a href="https://github.com/20KT1A0567"><i className="fa-brands fa-github"></i></a>
+              <p style={{ fontSize: "15px", fontFamily: "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif", paddingLeft: "170px", paddingTop: "1px" }}>
+                <a href="https://github.com/20KT1A0567">GitHub Link : <i className="fa-brands fa-github"></i></a>
               </p>
             </div>
   
@@ -58,14 +58,14 @@ const Projects = () => {
                 width="300px"
                 alt="KFC Website"
               />
-              <p style={{ fontSize: "20px", paddingLeft: "100px" }} id='p1'>
+              <p style={{ fontSize: "20px", paddingLeft: "60px" }} id='p1'>
                 <b>Title : KFC</b>
               </p>
               <p style={{ fontSize: "15px", textAlign: "justify", padding: "15px" }}>
                 You can explore KFC's official website at kfc.com to find their menu, order online, and locate nearby restaurants. The website showcases various menu items like fried chicken, sandwiches, and sides. You can also learn about the brand's history, global impact, and even career opportunities.
               </p>
-              <p style={{ fontSize: "15px", fontFamily: "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif", paddingLeft: "170px", paddingTop: "85px" }}>
-                GitHub Link: <a href="https://github.com/20KT1A0567"><i className="fa-brands fa-github"></i></a>
+              <p style={{ fontSize: "15px", fontFamily: "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif", paddingLeft: "170px", paddingTop: "30px" }}>
+                <a href="https://github.com/20KT1A0567">GitHub Link : <i className="fa-brands fa-github"></i></a>
               </p>
             </div>
           </div>

@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #333;
+    background: linear-gradient(to bottom, #6a11cb, #2575fc);
     color: #fff;
   }
   
@@ -58,7 +58,7 @@ body {
   }
   
   .header__link:hover {
-    color: #74D7BB;
+    color: orange;
   }
   
   .header__menu-icon {
@@ -81,7 +81,7 @@ body {
     .header__links {
       display: none;
       flex-direction: column;
-      background-color: #333;
+      background: linear-gradient(to bottom, #6a11cb, #2575fc);
       position: absolute;
       top: 70px;
       right: 0;

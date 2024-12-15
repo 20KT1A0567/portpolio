@@ -27,7 +27,7 @@ const Contact = () => {
         msgRef.current.innerHTML = "Message Sent Successfully...";
         setTimeout(() => {
           msgRef.current.innerHTML = "";
-          
+
           setFormData({ Name: '', Email: '', Message: '' });
         }, 5000);
       })
@@ -47,11 +47,22 @@ const Contact = () => {
           <div className="contact-left">
             <h1 className='abcd'>Contact Me</h1>
             <p className='abcd'>Venkatarao Dama</p>
-            <p className='abc'>
-              <i className="fas fa-paper-plane"></i>venkataraodama660@gmail.com
+            <p
+              className="abc"
+              style={{
+                fontFamily: "sans-serif",
+                fontSize: "large",
+                display: "flex",
+                alignItems: "center",
+                gap: "10px",
+                whiteSpace: "nowrap"
+              }}
+            >
+              <a href='mailto:venkataraodama660@gmail.com'><i className="fa-solid fa-envelope"></i>venkataraodama660@gmail.com</a>
             </p>
-            <p className='abcd'>
-              <i className="fas fa-phone-square-alt"></i> 9948598350
+
+            <p className='abcd' style={{cursor:'pointer'}}>
+              <a href='tel:9948598350' ><i className="fas fa-phone-square-alt"></i> 9948598350</a>
             </p>
             <div className="social-icons">
               <a href="https://www.facebook.com/venkatarao.dama.90">
@@ -173,7 +184,7 @@ const Contact = () => {
           <div className="main-footer__upper">
             <div className="main-footer__row main-footer__row-1">
               <h2 className="heading heading-sm main-footer__heading-sm">
-                <span>Social</span>
+                <span>Social Media</span>
               </h2>
               <div className="main-footer__social-cont">
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/dama-venkataraod/">

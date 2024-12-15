@@ -16,7 +16,7 @@ const Home = () => {
         <div className="home-hero__content">
           <h1 className="heading-primary">Hi, My name is Venkatarao Dama</h1>
           <div className="home-hero__info">
-            <p className="text-primary">Hey, I'm a Web Developer</p>
+            <p style={{color:"white", fontSize:"20px"}}><center>Hey, I'm a Web Developer</center></p>
           </div>
           <div className="home-hero__cta">
             <Link to="/projects" className="btn btn--bg">Projects</Link>
