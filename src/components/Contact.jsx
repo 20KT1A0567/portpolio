@@ -90,6 +90,7 @@ const Contact = () => {
                 fontFamily: 'sans-serif',
                 color: 'white',
                 marginTop: 10,
+                marginLeft:40
               }}
             >
               Download CV
