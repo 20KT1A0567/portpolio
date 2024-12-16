@@ -11,12 +11,12 @@ const Projects = () => {
               <p style={{ fontSize: "35px", paddingLeft: "90px" }} id='p1'>
                 <b>Project-1</b>
               </p>
-              <a href='https://netflix-clone-7hsq-obub51nk8-venkataraos-projects.vercel.app/'><img
+              <img
                 src={Netflix}
                 height="250px"
                 width="300px"
                 alt="Netflix Clone"
-              /></a>
+              />
               <p style={{ fontSize: "20px", paddingLeft: "50px" }} id='p1'>
                 <center><b>Title : Netflix Clone</b></center>
               </p>
@@ -31,12 +31,12 @@ const Projects = () => {
               <p style={{ fontSize: "35px", paddingLeft: "90px" }} id='p1'>
                 <b>Project-2</b>
               </p>
-              <a href='https://cheery-cat-1d3675.netlify.app/'><img
+              <img
                 src={weatherlogo}
                 height="250px"
                 width="300px"
                 alt="Weather App"
-              /></a>
+              />
               <p style={{ fontSize: "20px", paddingLeft: "50px" }} id='p1p'>
                 <b><center>Title : Weather App</center></b>
               </p>
@@ -52,12 +52,12 @@ const Projects = () => {
               <p style={{ fontSize: "35px", paddingLeft: "90px" }} id='p1'>
                 <b>Project-3</b>
               </p>
-              <a href='https://kfc-venkataraos-projects.vercel.app/'><img
+              <img
                 src={kfclogo}
                 height="250px"
                 width="300px"
                 alt="KFC Website"
-              /></a>
+              />
               <p style={{ fontSize: "20px", paddingLeft: "60px" }} id='p1'>
                 <b>Title : KFC</b>
               </p>
