@@ -33,16 +33,16 @@ const App = () => {
           <nav className="header__nav">
             <ul className={`header__links ${menuOpen ? "header__links--visible" : ""}`}>
               <li>
-                <Link to="/home" className="header__link" onClick={closeMenu}>Home</Link>
+                <a href="#home" className="header__link" onClick={closeMenu}>Home</a>
               </li>
               <li>
-                <Link to="/about" className="header__link" onClick={closeMenu}>About</Link>
+                <a href="#about" className="header__link" onClick={closeMenu}>About</a>
               </li>
               <li>
-                <Link to="/projects" className="header__link" onClick={closeMenu}>Projects</Link>
+              <a href="#project" className="header__link" onClick={closeMenu}>Projects</a>
               </li>
               <li>
-                <Link to="/contact" className="header__link" onClick={closeMenu}>Contact</Link>
+              <a href="#contact" className="header__link" onClick={closeMenu}>Contact</a>
               </li>
             </ul>
             <div className="header__menu-icon" onClick={toggleMenu}>

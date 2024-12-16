@@ -12,17 +12,17 @@ import Contact from './Contact';
 const Home = () => {
   return (
     <>
-      <section className="home-hero">
+      <section className="home-hero" id='home'>
         <div className="home-hero__content">
           <h1 className="heading-primary">Hi, My name is Venkatarao Dama</h1>
           <div className="home-hero__info">
-            <p style={{color:"white", fontSize:"20px"}}><center>Hey, I'm a Web Developer</center></p>
+            <p style={{ color: "white", fontSize: "20px" }}><center>Hey, I'm a Web Developer</center></p>
           </div>
           <div className="home-hero__cta">
             <Link to="/projects" className="btn btn--bg">Projects</Link>
           </div>
         </div>
-        
+
         <div className="home-hero__socials">
           <div className="home-hero__social">
             <a href="https://www.linkedin.com/in/dama-venkataraod/" className="home-hero__social-icon-link" target="_blank" rel="noopener noreferrer">
@@ -55,7 +55,7 @@ const Home = () => {
           <div className="mouse"></div>
         </div>
       </section>
-    
+
     </>
   );
 };
