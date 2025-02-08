@@ -4,7 +4,7 @@ import github from '../components/Images/png/github-ico.png';
 import insta from '../components/Images/png/insta-ico.png';
 import twitter from '../components/Images/png/twitter-ico.png';
 import youtube from '../components/Images/png/yt-ico.png';
-import downloadcv from '../components/Images/png/venkat_resume.pdf';
+import downloadcv from '../components/Images/png/venkataraodamaresume.pdf';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ Name: '', Email: '', Message: '' });
@@ -16,7 +16,7 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzqrKaz3ba5KLxg0Kz-obH-hl8DHpdrfxPXh38G6bUuqsRlx7VwACv7onGAO4Mzsto/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxG019_keQDo03TKfV_4Zw7F9_LYZzkkwdfYWiZhDoMtIUiLxFNKHFXHuYVGdq1DJZC/exec';
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -61,7 +61,7 @@ const Contact = () => {
               <a href='mailto:venkataraodama660@gmail.com'><i className="fa-solid fa-envelope"></i>venkataraodama660@gmail.com</a>
             </p>
 
-            <p className='abcd' style={{cursor:'pointer'}}>
+            <p className='abcd' style={{ cursor: 'pointer' }}>
               <a href='tel:9948598350' ><i className="fas fa-phone-square-alt"></i> 9948598350</a>
             </p>
             <div className="social-icons">
@@ -90,7 +90,7 @@ const Contact = () => {
                 fontFamily: 'sans-serif',
                 color: 'white',
                 marginTop: 10,
-                marginLeft:40
+                marginLeft: 40
               }}
             >
               Download CV
