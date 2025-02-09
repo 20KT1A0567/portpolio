@@ -1022,13 +1022,6 @@ label {
 }
 
 
-.fade-text {
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  animation: fadeInOut 2s infinite;
-}
-
 @keyframes fadeInOut {
   0% {
     opacity: 0;
@@ -1057,6 +1050,7 @@ label {
   max-width: 1400px;
   width: 100%;
 }
+
 .project {
   background: #fff;
   border-radius: 12px;
@@ -1068,6 +1062,7 @@ label {
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+  height: 100%; /* Ensure all boxes have the same height */
 }
 
 .project:hover {
@@ -1077,8 +1072,8 @@ label {
 
 .project img {
   width: 100%;
-  max-height: 220px;
-  object-fit: cover;
+  height: 220px; /* Fixed height for all images */
+  object-fit: cover; /* Ensure images cover the area without distortion */
   border-radius: 10px;
   margin-bottom: 15px;
 }
@@ -1103,7 +1098,9 @@ label {
   text-align: center;
   margin-bottom: 15px;
   padding: 0 10px;
+  flex-grow: 1; /* Allow text to grow and align boxes properly */
 }
+
 .github-link {
   display: inline-flex;
   align-items: center;
@@ -1116,6 +1113,7 @@ label {
   text-decoration: none;
   border-radius: 8px;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: auto; /* Push the button to the bottom */
 }
 
 .github-link:hover {
@@ -1192,19 +1190,8 @@ label {
   padding-right: 50px; 
 }
 
-.heading-primary {
-  font-size: 32px;
-  font-weight: 700;
-  color: #222;
-  margin-bottom: 10px;
-}
 
-.fade-text {
-  font-size: 40px;
-  color: #555;
-  margin-bottom: 20px;
-  text-align: right; 
-}
+
 
 @media (max-width: 1024px) {
   .home-hero__content {
@@ -1212,9 +1199,7 @@ label {
     padding-right: 0;
   }
 
-  .fade-text {
-    text-align: center; 
-  }
+  
 }
 .btn--bg {
   background-color: #007bff;
@@ -1254,11 +1239,55 @@ label {
   }
 }
 
+.home-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.home-hero__container {
+  text-align: center;
+}
 
 
 
+.heading-primary {
+  font-size: 4.5rem;
+  margin-bottom: 10px;
+}
 
+.fade-text {
+  font-size: 3.9rem;
+  color:black;
+}
 
+.animated-text {
+  display: inline-block;
+  position: relative;
+  color: blue;
+}
+
+.animated-text::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #000; 
+  animation: blink 0.75s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0;
+  }
+}
 
 
 
